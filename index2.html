@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Import Google Icon Font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>CAROUSEL</h2>
+
+      <!-- CAROUSEL -->
+
+      <!--
+        <div class="carousel">
+          <a href="#one!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/320/240?random=1"
+              alt="Contact Person"
+          /></a>
+          <a href="#two!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/320/240?random=2"
+              alt="Contact Person"
+          /></a>
+          <a href="#three!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/320/240?random=3"
+              alt="Contact Person"
+          /></a>
+          <a href="#four!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/320/240?random=4"
+              alt="Contact Person"
+          /></a>
+          <a href="#five!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/320/240?random=5"
+              alt="Contact Person"
+          /></a>
+        </div>
+      -->
+
+      <!-- CAROUSEL FULL SLIDER -->
+
+      <!--
+        <div class="carousel carousel-slider">
+          <a href="#one!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/800/400?random=1"
+              alt="Contact Person"
+          /></a>
+          <a href="#two!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/800/400?random=2"
+              alt="Contact Person"
+            />" alt="Contact Person" /></a
+          >
+          <a href="#three!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/800/400?random=3"
+              alt="Contact Person"
+            />" alt="Contact Person" /></a
+          >
+          <a href="#four!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/800/400?random=4"
+              alt="Contact Person"
+          /></a>
+          <a href="#five!" class="carousel-item">
+            <img
+              src="https://loremflickr.com/800/400?random=5"
+              alt="Contact Person"
+          /></a>
+        </div>
+      -->
+
+      <h2>COLLAPSIBLE</h2>
+
+      <!-- COLLAPSABLE -->
+      <ul class="collapsible" data-collapsible="accordion">
+        <li class="active">
+          <div class="collapsible-header">
+            <i class="material-icons">filter_drama</i>First
+          </div>
+          <div class="collapsible-body">
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">filter_drama</i>Second
+          </div>
+          <div class="collapsible-body">
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+        </li>
+
+        <li>
+          <div class="collapsible-header">
+            <i class="material-icons">filter_drama</i>Third
+          </div>
+          <div class="collapsible-body">
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </span>
+          </div>
+        </li>
+      </ul>
+
+      <h2>TOASTS</h2>
+
+      <!-- TOASTS -->
+      <a onclick="M.toast({html: 'I am a toast'})" class="btn">Toast!</a>
+
+      <!-- TOOLTIP -->
+      <h2>TOOLTIP</h2>
+      <a
+        href=""
+        class="btn tooltipped"
+        data-position="top"
+        data-tooltip="I am tooltip"
+        >Hover here!</a
+      >
+
+      <a
+        href=""
+        class="btn tooltipped"
+        data-position="bottom"
+        data-delay="5000"
+        data-tooltip="I am tooltip"
+        >Hover here!</a
+      >
+
+      <a
+        href=""
+        class="btn tooltipped"
+        data-position="top"
+        data-tooltip="I am tooltip"
+        >Hover here!</a
+      >
+
+      <!-- DROPDOWNS -->
+      <h2>DROPDOWNS</h2>
+
+      <!-- Dropdown Trigger -->
+      <a class="dropdown-trigger btn" href="#" data-target="dropdown1"
+        >Drop Me!</a
+      >
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#!">three</a></li>
+        <li>
+          <a href="#!"><i class="material-icons">view_module</i>four</a>
+        </li>
+        <li>
+          <a href="#!"><i class="material-icons">cloud</i>five</a>
+        </li>
+      </ul>
+
+      <!-- MATERIAL BOXED -->
+      <h2>MATERIAL BOXED</h2>
+      <img
+        src="https://picsum.photos/200/300/?random"
+        alt=""
+        class="materialboxed"
+        data-caption="Here is a caption"
+      />
+
+      <!-- SLIDER -->
+      <h2>SLIDER</h2>
+
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="https://picsum.photos/580/250/?random" alt="" />
+            <div class="caption center-align">
+              <h4>This is a tagline</h4>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/580/250/?random" alt="" />
+            <div class="caption left-align">
+              <h4>This is a tagline</h4>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/580/250/?random" alt="" />
+            <div class="caption right-align">
+              <h4>This is a tagline</h4>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- MODALS -->
+      <h2>MODAL</h2>
+
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal1"
+        >Modal</a
+      >
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+
+      <!-- MODAL WITH FIXED FOOTER -->
+
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2"
+        >Modal</a
+      >
+
+      <!-- Modal Structure -->
+      <div id="modal2" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>
+            Where does it come from? Contrary to popular belief, Lorem Ipsum is
+            not simply random text. It has roots in a piece of classical Latin
+            literature from 45 BC, making it over 2000 years old. Richard
+            McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+            looked up one of the more obscure Latin words, consectetur, from a
+            Lorem Ipsum passage, and going through the cites of the word in
+            classical literature, discovered the undoubtable source. Lorem Ipsum
+            comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+            Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+            BC. This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
+            dolor sit amet..", comes from a line in section 1.10.32. The
+            standard chunk of Lorem Ipsum used since the 1500s is reproduced
+            below for those interested. Sections 1.10.32 and 1.10.33 from "de
+            Finibus Bonorum et Malorum" by Cicero are also reproduced in their
+            exact original form, accompanied by English versions from the 1914
+            translation by H. Rackham.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+
+      <!-- BOTTOM SHEET MODALS -->
+
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal3"
+        >Modal</a
+      >
+
+      <!-- Modal Structure -->
+      <div id="modal3" class="modal bottom-sheet">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+
+      <!-- SIDENAV -->
+      <h2>SIDENAV</h2>
+
+      <nav><!-- navbar content here --></nav>
+
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <div class="background"><img src="images/office.jpg" /></div>
+            <a href="#user"><img class="circle" src="images/yuna.jpg"/></a>
+            <a href="#name"><span class="white-text name">John Doe</span></a>
+            <a href="#email"
+              ><span class="white-text email">jdandturk@gmail.com</span></a
+            >
+          </div>
+        </li>
+        <li>
+          <a href="#!"
+            ><i class="material-icons">cloud</i>First Link With Icon</a
+          >
+        </li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"
+        ><i class="material-icons">menu</i></a
+      >
+
+      <!-- TABS -->
+      <h2>TABS</h2>
+
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test1">Test 1</a></li>
+            <li class="tab col s3">
+              <a class="active" href="#test2">Test 2</a>
+            </li>
+            <li class="tab col s3 disabled">
+              <a href="#test3">Disabled Tab</a>
+            </li>
+            <li class="tab col s3"><a href="#test4">Test 4</a></li>
+          </ul>
+        </div>
+        <div id="test1" class="col s12">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </div>
+        <div id="test2" class="col s12">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It
+          has roots in a piece of classical Latin literature from 45 BC, making
+          it over 2000 years old. Richard McClintock, a Latin professor at
+          Hampden-Sydney College in Virginia, looked up one of the more obscure
+          Latin words, consectetur, from a Lorem Ipsum passage, and going
+          through the cites of the word in classical literature, discovered the
+          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+          1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the
+          theory of ethics, very popular during the Renaissance. The first line
+          of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+          section 1.10.32. The standard chunk of Lorem Ipsum used since the
+          1500s is reproduced below for those interested. Sections 1.10.32 and
+          1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+          reproduced in their exact original form, accompanied by English
+          versions from the 1914 translation by H. Rackham.
+        </div>
+        <div id="test3" class="col s12">Test 3</div>
+        <div id="test4" class="col s12">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy. Various versions have evolved over the years, sometimes by
+          accident, sometimes on purpose (injected humour and the like).
+        </div>
+      </div>
+
+      <h2>TAP TARGET</h2>
+      <!-- TAP TARGET -->
+
+      <div class="fixed-action-btn" style="bottom:45px; right:24px">
+        <a
+          id="menu"
+          onclick="$('.tap-target').tapTarget('open')"
+          class="waves-effect waves-light btn btn-floating btn-large cyan"
+        >
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <!-- TAP TARGET CONTENT -->
+      <div class="tap-target cyan" data-activates="menu">
+        <div class="tap-target-content white-text">
+          <h5>Tap Target Content</h5>
+          <p class="white-text">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of Lorem Ipsum, you
+            need to be sure there isn't anything embarrassing hidden in the
+            middle of text. All the Lorem Ipsum generators on the Internet tend
+            to repeat predefined chunks as necessary, making this the first true
+            generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with a handful of model sentence structures, to
+            generate Lorem Ipsum which looks reasonable. The generated Lorem
+            Ipsum is therefore always free from repetition, injected humour, or
+            non-characteristic words etc.
+          </p>
+        </div>
+      </div>
+
+      <!-- END CONTAINER -->
+    </div>
+    <div style="height:500px"></div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        //INIT carouse
+        $(".carousel").carousel();
+
+        //INIT carousel-slider
+        $(".carousel.carousel-slider").carousel({ fullWidth: true });
+
+        //INIT collapsable
+        $(".collapsible").collapsible();
+        //INIT TOOLTIP
+        $(".tooltipped").tooltip();
+        $(".tooltipped").tooltip({ delay: 5000 });
+
+        $(".dropdown-trigger").dropdown();
+
+        $(".materialboxed").materialbox();
+
+        $(".slider").slider();
+
+        $(".modal").modal();
+
+        $(".tabs").tabs();
+
+        //$(".tap-target").tapTarget();
+        $(".tap-target").tapTarget("open");
+        $(".tap-target").tapTarget("close");
+
+        $(".sidenav").sidenav();
+
+        //INIT DROPDOWN
+
+        //FIRE OFF TOAST
+        M.toast({ html: "Hello daar sexy!" });
+      });
+    </script>
+  </body>
+</html>
